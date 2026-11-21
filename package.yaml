@@ -1,0 +1,12 @@
+name: text-rust
+library: std
+version: 0.1.0
+homepage: https://github.com/morloclib/text-rust
+synopsis: Rust implementations for text operations
+description: Rust implementations for text operations
+category: data
+license: MIT
+author: "Zebulun Arendsee"
+maintainer: "z@morloc.io"
+github: https://github.com/morloclib/text-rust
+bug-reports: https://github.com/morloclib/text-rust

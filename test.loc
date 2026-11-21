@@ -1,0 +1,4 @@
+module test-text-rust (test)
+
+import text.test (test)
+import text-rust

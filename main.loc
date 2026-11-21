@@ -1,0 +1,28 @@
+module text-rust (*)
+
+import text
+import root-rust
+
+%inline
+source Rust from "text.rs"
+    ( "text_split" as split
+    , "text_lines" as lines
+    , "text_words" as words
+    , "text_chars" as chars
+    , "text_join" as join
+    , "text_unlines" as unlines
+    , "text_unwords" as unwords
+    , "text_contains" as contains
+    , "text_startsWith" as startsWith
+    , "text_endsWith" as endsWith
+    , "text_toUpper" as toUpper
+    , "text_toLower" as toLower
+    , "text_trim" as trim
+    , "text_trimStart" as trimStart
+    , "text_trimEnd" as trimEnd
+    , "text_replace" as replace
+    , "text_replaceAll" as replaceAll
+    , "text_padLeft" as padLeft
+    , "text_padRight" as padRight
+    , "text_isBlank" as isBlank
+    )
